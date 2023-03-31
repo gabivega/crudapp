@@ -68,7 +68,7 @@ const deleteUser = (id) => {
           
         </div>
         <div className="flex-large">
-          <h2>View Users</h2>
+          <h2>User's Table</h2>
           <UserTable
            users={users}
            deleteUser={deleteUser}
